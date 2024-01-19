@@ -1,4 +1,4 @@
-# -S24_RobotProgramming_eloquent
+# S24_RobotProgramming_eloquent
 
 Nikolas Hamilton, zombieRoboticist, hamiln@rpi.edu
 Logan Haw, LoganHaw, hawl@rpi.edu
