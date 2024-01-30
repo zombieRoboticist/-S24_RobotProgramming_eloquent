@@ -1,0 +1,16 @@
+To draw the square, I start by moving the turtle to a corner of the window using command (1) below.
+
+(1) ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+
+I then clear the window using command (2).
+
+(2) ros2 service call /clear std_srvs/srv/Empty
+
+The pen color is then set to black using using command (3). 
+
+(3) ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 0, g: 0, b: 0, 'width': 10, 'off': 0}"
+
+To draw the square, I used a series of absolute rotations, using command 4, with commanded velocities between.
+The robot was oriented to the cardinal directions using rotation angles of 0, 1.57, 3.14, and 4.71.
+
+(4) ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 4.71}"
