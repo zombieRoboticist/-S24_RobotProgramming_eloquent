@@ -1,0 +1,10 @@
+
+First i reloaded the turtlesim node/window to ensure there was a clear screen. then i used the following comands were in order (note these commands were inputed into the terminal one at a time because it messed up if I pasted them into the terminal all at once):
+
+	ros2 service call '/turtle1/set_pen' 'turtlesim/srv/SetPen' "{'r':0, 'g':0, 'b':0, 'width':1, 'off':0}"
+	ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear:{x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.0}}"
+	ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear:{x: -0.0, y: 2.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.0}}"
+	ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear:{x: -2.0, y: -0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.0}}"
+	ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear:{x: -0.0, y: -2.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.0}}"
+
+The first comand sets the pen color to black (r=0,b=0,g=0). the next 4 comands move the turtle in a straight line without any rotation. The lack of rotation was intentional to make it easier to keep track of the global position from the local referance frame the commands use.
