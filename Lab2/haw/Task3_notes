@@ -1,0 +1,5 @@
+To make the turtle draw a square, I used the command: 
+ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 2.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+I used this four times, first with x = 2 to move the turtle down, then y=-2 to move my turtle left, x=-2 to go back up, and y=2 
+to go back to the beginning. With each iteration, only one value was being changed and all the rest were zeros. My turtle started out 
+facing downwards.
