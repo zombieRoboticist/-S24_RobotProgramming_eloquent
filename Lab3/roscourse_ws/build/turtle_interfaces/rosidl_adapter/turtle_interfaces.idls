@@ -1,0 +1,3 @@
+/home/yahboom/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleMsg.idl
+/home/yahboom/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetPose.idl
+/home/yahboom/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetColor.idl

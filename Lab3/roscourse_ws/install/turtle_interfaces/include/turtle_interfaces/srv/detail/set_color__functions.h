@@ -1,0 +1,1 @@
+/home/yahboom/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.h

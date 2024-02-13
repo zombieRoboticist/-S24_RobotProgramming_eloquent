@@ -1,0 +1,18 @@
+[2.551s] Invoking command in '/home/yahboom/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/roscourse_ws/build/webcam/prefix_override:/home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/roscourse_ws/build/webcam/build --no-deps install_data
+[3.095s] running develop
+[3.425s] running egg_info
+[3.425s] writing webcam.egg-info/PKG-INFO
+[3.426s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[3.427s] writing entry points to webcam.egg-info/entry_points.txt
+[3.427s] writing requirements to webcam.egg-info/requires.txt
+[3.428s] writing top-level names to webcam.egg-info/top_level.txt
+[3.492s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[3.493s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[3.563s] running build_ext
+[3.563s] Creating /home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages/webcam.egg-link (link to .)
+[3.565s] Installing webcam_pub script to /home/yahboom/roscourse_ws/install/webcam/lib/webcam
+[3.565s] Installing webcam_sub script to /home/yahboom/roscourse_ws/install/webcam/lib/webcam
+[3.565s] 
+[3.565s] Installed /home/yahboom/roscourse_ws/build/webcam
+[3.566s] running install_data
+[3.624s] Invoked command in '/home/yahboom/roscourse_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/roscourse_ws/build/webcam/prefix_override:/home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/roscourse_ws/build/webcam/build --no-deps install_data
