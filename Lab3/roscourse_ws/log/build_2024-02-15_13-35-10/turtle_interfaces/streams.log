@@ -1,0 +1,37 @@
+[0.054s] Invoking command in '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/webcam:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/turtle_interfaces
+[0.232s] -- The C compiler identification is GNU 9.4.0
+[0.361s] -- The CXX compiler identification is GNU 9.4.0
+[0.378s] -- Check for working C compiler: /usr/bin/cc
+[0.496s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.497s] -- Detecting C compiler ABI info
+[0.616s] -- Detecting C compiler ABI info - done
+[0.627s] -- Detecting C compile features
+[0.628s] -- Detecting C compile features - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.760s] -- Detecting CXX compiler ABI info
+[0.892s] -- Detecting CXX compiler ABI info - done
+[0.904s] -- Detecting CXX compile features
+[0.905s] -- Detecting CXX compile features - done
+[0.924s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.982s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.983s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.320s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.507s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.658s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.831s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.074s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.140s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.220s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[2.221s]   rosidl_generate_interfaces() the passed dependency 'srv/Setpose.srv' has
+[2.222s]   not been found before using find_package()
+[2.222s] Call Stack (most recent call first):
+[2.223s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[2.223s] 
+[2.224s] 
+[2.225s] -- Configuring incomplete, errors occurred!
+[2.225s] See also "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/turtle_interfaces/CMakeFiles/CMakeOutput.log".
+[2.234s] Invoked command in '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/turtle_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/webcam:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/turtle_interfaces

@@ -1,0 +1,23 @@
+[0.671s] Invoking command in '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/python_turtle': PYTHONPATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/build install --record /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
+[0.898s] running egg_info
+[0.899s] writing ../../build/python_turtle/python_turtle.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/python_turtle/python_turtle.egg-info/dependency_links.txt
+[0.901s] writing entry points to ../../build/python_turtle/python_turtle.egg-info/entry_points.txt
+[0.902s] writing requirements to ../../build/python_turtle/python_turtle.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/python_turtle/python_turtle.egg-info/top_level.txt
+[0.937s] reading manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.942s] running build_py
+[0.943s] running install
+[0.944s] running install_lib
+[0.948s] running install_data
+[0.949s] copying package.xml -> /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/share/python_turtle
+[0.951s] running install_egg_info
+[0.953s] removing '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info' (and everything under it)
+[0.957s] Copying ../../build/python_turtle/python_turtle.egg-info to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info
+[0.970s] running install_scripts
+[0.985s] Installing turtlebot_client script to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[0.986s] Installing turtlebot_server script to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[0.989s] writing list of installed files to '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/install.log'
+[1.004s] Invoked command in '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/python_turtle' returned '0': PYTHONPATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/build install --record /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
