@@ -1,0 +1,5 @@
+[console_scripts]
+service_client = python_turtle.service_client:main
+turtlebot_client = python_turtle.turtlebot_client:main
+turtlebot_server = python_turtle.turtlebot_server:main
+

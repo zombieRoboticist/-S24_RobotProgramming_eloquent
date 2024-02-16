@@ -1,0 +1,30 @@
+[0.828s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
+[1.020s] running egg_info
+[1.021s] writing ../../build/python_turtle/python_turtle.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../../build/python_turtle/python_turtle.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../../build/python_turtle/python_turtle.egg-info/entry_points.txt
+[1.021s] writing requirements to ../../build/python_turtle/python_turtle.egg-info/requires.txt
+[1.021s] writing top-level names to ../../build/python_turtle/python_turtle.egg-info/top_level.txt
+[1.044s] reading manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[1.044s] writing manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] copying python_turtle/turtlebot_server.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[1.045s] copying python_turtle/service_client.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[1.045s] running install
+[1.046s] running install_lib
+[1.046s] copying /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build/lib/python_turtle/turtlebot_server.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle
+[1.047s] copying /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build/lib/python_turtle/service_client.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle
+[1.047s] byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle/turtlebot_server.py to turtlebot_server.cpython-38.pyc
+[1.048s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (turtlebot_server.py, line 29)
+[1.048s] byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle/service_client.py to service_client.cpython-38.pyc
+[1.048s] running install_data
+[1.049s] running install_egg_info
+[1.050s] removing '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info' (and everything under it)
+[1.050s] Copying ../../build/python_turtle/python_turtle.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info
+[1.051s] running install_scripts
+[1.064s] Installing service_client script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[1.064s] Installing turtlebot_client script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[1.064s] Installing turtlebot_server script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[1.065s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/install.log'
+[1.086s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
