@@ -1,0 +1,3 @@
+[0.685s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/build
+[0.920s] running develop
+[1.030s] Removing /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages/webcam.egg-link (link to .)

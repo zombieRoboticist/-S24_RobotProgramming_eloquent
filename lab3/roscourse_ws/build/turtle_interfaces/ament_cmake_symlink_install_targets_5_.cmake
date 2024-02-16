@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/libturtle_interfaces__python.so" "TARGETS" "turtle_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_msg__traits.hpp

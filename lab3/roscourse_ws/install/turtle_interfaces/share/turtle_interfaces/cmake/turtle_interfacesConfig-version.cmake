@@ -1,0 +1,1 @@
+/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces/ament_cmake_core/turtle_interfacesConfig-version.cmake
