@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/python_turtle/python_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_turtle/python_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/python_turtle/python_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/python_turtle/python_turtle.egg-info/requires.txt
+writing top-level names to ../../build/python_turtle/python_turtle.egg-info/top_level.txt
+reading manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying python_turtle/service_client.py -> /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/build/lib/python_turtle
+running install
+running install_lib
+copying /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/build/lib/python_turtle/service_client.py -> /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle
+byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle/turtlebot_server.py to turtlebot_server.cpython-38.pyc
+byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle/service_client.py to service_client.cpython-38.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (turtlebot_server.py, line 14)
+running install_data
+running install_egg_info
+removing '/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/python_turtle/python_turtle.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info
+running install_scripts
+Installing service_client script to /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+Installing turtlebot_client script to /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+Installing turtlebot_server script to /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/build/python_turtle/install.log'

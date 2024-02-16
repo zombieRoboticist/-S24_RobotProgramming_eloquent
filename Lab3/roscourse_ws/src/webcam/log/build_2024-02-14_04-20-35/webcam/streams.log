@@ -1,0 +1,19 @@
+[1.551s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam/build --no-deps install_data
+[2.090s] running develop
+[2.363s] running egg_info
+[2.364s] writing webcam.egg-info/PKG-INFO
+[2.365s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[2.365s] writing entry points to webcam.egg-info/entry_points.txt
+[2.366s] writing requirements to webcam.egg-info/requires.txt
+[2.367s] writing top-level names to webcam.egg-info/top_level.txt
+[2.440s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[2.441s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[2.526s] running build_ext
+[2.526s] Creating /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/install/webcam/lib/python3.8/site-packages/site.py
+[2.530s] Creating /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/install/webcam/lib/python3.8/site-packages/webcam.egg-link (link to .)
+[2.531s] Installing webcam_pub script to /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/install/webcam/lib/webcam
+[2.532s] Installing webcam_sub script to /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/install/webcam/lib/webcam
+[2.532s] 
+[2.532s] Installed /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam
+[2.532s] running install_data
+[2.599s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/Lab3/roscourse_ws/src/webcam/build/webcam/build --no-deps install_data
