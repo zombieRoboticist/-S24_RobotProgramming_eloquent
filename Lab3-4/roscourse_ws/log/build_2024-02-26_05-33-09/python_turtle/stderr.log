@@ -1,0 +1,5 @@
+  File "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle/turtlebot_client.py", line 36
+    help(x.get_parameter(‘a’).get_parameter_value())
+                           ^
+SyntaxError: invalid character in identifier
+

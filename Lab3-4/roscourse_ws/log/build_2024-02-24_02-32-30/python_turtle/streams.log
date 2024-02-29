@@ -1,0 +1,32 @@
+[0.593s] Invoking command in '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/src/python_turtle': AMENT_PREFIX_PATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build install --record /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
+[0.783s] running egg_info
+[0.783s] creating ../../build/python_turtle/python_turtle.egg-info
+[0.784s] writing ../../build/python_turtle/python_turtle.egg-info/PKG-INFO
+[0.785s] writing dependency_links to ../../build/python_turtle/python_turtle.egg-info/dependency_links.txt
+[0.787s] writing entry points to ../../build/python_turtle/python_turtle.egg-info/entry_points.txt
+[0.787s] writing requirements to ../../build/python_turtle/python_turtle.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/python_turtle/python_turtle.egg-info/top_level.txt
+[0.790s] writing manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[0.829s] reading manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[0.832s] writing manifest file '../../build/python_turtle/python_turtle.egg-info/SOURCES.txt'
+[0.833s] running build
+[0.833s] running build_py
+[0.834s] creating /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build
+[0.835s] creating /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build/lib
+[0.835s] creating /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[0.836s] copying python_turtle/service_client.py -> /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[0.837s] copying python_turtle/turtlebot_server.py -> /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[0.839s] copying python_turtle/__init__.py -> /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[0.841s] copying python_turtle/turtlebot_client.py -> /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build/lib/python_turtle
+[0.843s] running install
+[0.843s] running install_lib
+[0.848s] running install_data
+[0.849s] running install_egg_info
+[0.851s] removing '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info' (and everything under it)
+[0.854s] Copying ../../build/python_turtle/python_turtle.egg-info to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python_turtle-0.0.0-py3.8.egg-info
+[0.866s] running install_scripts
+[0.880s] Installing service_client script to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python_turtle
+[0.882s] Installing turtlebot_client script to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python_turtle
+[0.883s] Installing turtlebot_server script to /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python_turtle
+[0.885s] writing list of installed files to '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/install.log'
+[0.901s] Invoked command in '/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/src/python_turtle' returned '0': AMENT_PREFIX_PATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/build install --record /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
