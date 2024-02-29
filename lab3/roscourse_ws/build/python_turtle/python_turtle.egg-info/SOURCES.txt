@@ -8,6 +8,7 @@ setup.py
 ../../build/python_turtle/python_turtle.egg-info/requires.txt
 ../../build/python_turtle/python_turtle.egg-info/top_level.txt
 ../../build/python_turtle/python_turtle.egg-info/zip-safe
+launch/turtle_teleop_launch.py
 python_turtle/__init__.py
 python_turtle/service_client.py
 python_turtle/turtlebot_client.py

@@ -1,0 +1,20 @@
+[1.259s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build --no-deps install_data
+[1.507s] running develop
+[1.657s] running egg_info
+[1.658s] writing python_turtle.egg-info/PKG-INFO
+[1.658s] writing dependency_links to python_turtle.egg-info/dependency_links.txt
+[1.659s] writing entry points to python_turtle.egg-info/entry_points.txt
+[1.659s] writing requirements to python_turtle.egg-info/requires.txt
+[1.660s] writing top-level names to python_turtle.egg-info/top_level.txt
+[1.686s] reading manifest file 'python_turtle.egg-info/SOURCES.txt'
+[1.686s] writing manifest file 'python_turtle.egg-info/SOURCES.txt'
+[1.727s] running build_ext
+[1.727s] Creating /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python-turtle.egg-link (link to .)
+[1.728s] Installing service_client script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[1.729s] Installing turtlebot_client script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[1.729s] Installing turtlebot_server script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python_turtle
+[1.729s] 
+[1.729s] Installed /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle
+[1.729s] running install_data
+[1.729s] copying package.xml -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle
+[1.757s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build --no-deps install_data

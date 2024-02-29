@@ -10,6 +10,10 @@ from geometry_msgs.msg import Twist, Pose
 from turtle_interfaces.srv import SetColor
 from turtle_interfaces.msg import TurtleMsg
 
+from rclpy.parameter import Parameter;
+from rcl_interfaces.msg import ParameterDescriptor;
+from turtle_interfaces.srv import SetColor;
+
 class TurtleClient(Node):
     def __init__(self):
         super().__init__('turtleClient')
@@ -21,6 +25,30 @@ class TurtleClient(Node):
         self.turtle_display.shape("turtle")
         self.turtle = TurtleMsg()
 
+    #turtleColor is the argument that changes the color of the turtle on startup. it has a default color of green added by nikolas
+    #penSize is the argument that changes the line thickness of the turtle on startup. it has the default value of 1
+        self.declare_parameter('turtleColor', 'green',ParameterDescriptor(description= 'the color of the turtle'))
+        self.declare_parameter('penSize', 1,ParameterDescriptor(description= 'the size of the line the turtle makes'))
+        
+        #reads the input color given by the user
+        turtleColor = self.get_parameter('turtleColor').get_parameter_value().string_value
+        #sets the color of the turtle
+        self.turtle_display.color(turtleColor)
+        
+        #reads the input pen size from the user
+        penSize = self.get_parameter('penSize').get_parameter_value().integer_value
+        #sets the pen size of the turtle
+        self.turtle_display.pensize(penSize)
+        
+        #set the turtle line color using a server call
+        self.color_cli = self.create_client(SetColor,'setColor')
+        while not self.color_cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Color service not available, waiting...')
+        self.color_req = SetColor.Request()
+        self.color_req.color = turtleColor
+        self.server_call = True
+        self.service_future = self.color_cli.call_async(self.color_req)
+        
         #### publisher define ####
         self.twist_pub = self.create_publisher(Twist, 'turtleDrive', 1)
         ##########################
@@ -102,7 +130,8 @@ def main(args=None):
         cmd_msg = Twist()
         cmd_msg.linear.x = float(50 * unit_x)
         cmd_msg.angular.z = float(1 * unit_z)
-        cli_obj.twist_pub.publish(cmd_msg)
+        #commented out by nikolas for lab 4 part 1
+        #cli_obj.twist_pub.publish(cmd_msg)
 
     # Destory the node explicitly
     cli_obj.destroy_node()

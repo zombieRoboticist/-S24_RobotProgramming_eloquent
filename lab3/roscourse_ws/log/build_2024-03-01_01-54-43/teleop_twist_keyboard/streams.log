@@ -1,0 +1,29 @@
+[1.596s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build
+[1.934s] running develop
+[2.095s] Removing /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop-twist-keyboard.egg-link (link to .)
+[2.119s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build
+[2.120s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[2.398s] running egg_info
+[2.399s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[2.399s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[2.400s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[2.400s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[2.400s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[2.442s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.444s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.444s] running build
+[2.444s] running build_py
+[2.444s] creating /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build
+[2.444s] creating /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build/lib
+[2.444s] copying teleop_twist_keyboard.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build/lib
+[2.445s] running install
+[2.446s] running install_lib
+[2.447s] copying /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages
+[2.448s] byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-38.pyc
+[2.450s] running install_data
+[2.452s] running install_egg_info
+[2.454s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info
+[2.456s] running install_scripts
+[2.480s] Installing teleop_twist_keyboard script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[2.480s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/install.log'
+[2.505s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

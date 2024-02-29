@@ -1,0 +1,17 @@
+[1.399s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build --no-deps install_data
+[1.679s] running develop
+[1.840s] running egg_info
+[1.840s] writing teleop_twist_keyboard.egg-info/PKG-INFO
+[1.841s] writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.841s] writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt
+[1.841s] writing requirements to teleop_twist_keyboard.egg-info/requires.txt
+[1.841s] writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt
+[1.882s] reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.883s] writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.906s] running build_ext
+[1.906s] Creating /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop-twist-keyboard.egg-link (link to .)
+[1.908s] Installing teleop_twist_keyboard script to /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.908s] 
+[1.908s] Installed /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard
+[1.909s] running install_data
+[1.951s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/teleop_twist_keyboard/build --no-deps install_data
