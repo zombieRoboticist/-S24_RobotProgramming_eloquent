@@ -1,0 +1,167 @@
+[0.152s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[0.942s] [  2%] Built target turtle_interfaces__cpp
+[0.943s] [ 12%] Built target turtle_interfaces__rosidl_generator_c
+[0.943s] [ 25%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[0.944s] [ 34%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.944s] [ 44%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[0.944s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_c
+[0.944s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[0.944s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[0.944s] [ 76%] Built target turtle_interfaces
+[0.944s] [ 78%] Built target turtle_interfaces__py
+[0.954s] [ 87%] Built target turtle_interfaces__python
+[1.035s] [ 91%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.039s] [ 95%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[1.057s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.494s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[1.799s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces
+[1.836s] -- Install configuration: ""
+[1.838s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[1.838s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces
+[1.839s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg
+[1.839s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.851s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+[1.852s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__struct.h
+[1.852s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__functions.c
+[1.853s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__functions.h
+[1.853s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__type_support.h
+[1.853s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/turtle_msg.h
+[1.854s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv
+[1.854s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail
+[1.854s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__functions.h
+[1.854s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__functions.c
+[1.854s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__struct.h
+[1.855s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__type_support.h
+[1.855s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__type_support.h
+[1.855s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__struct.h
+[1.855s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__functions.c
+[1.856s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__functions.h
+[1.856s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/set_color.h
+[1.856s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/set_pose.h
+[1.856s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[1.857s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[1.857s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces
+[1.857s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg
+[1.857s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+[1.858s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_c.h
+[1.858s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.858s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv
+[1.858s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail
+[1.874s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h
+[1.874s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[1.874s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.874s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces
+[1.874s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg
+[1.874s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dds_fastrtps
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/dds_fastrtps
+[1.875s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__type_support.c
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_c.h
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[1.876s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__type_support.c
+[1.877s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__type_support.c
+[1.877s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_c.h
+[1.877s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[1.893s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[1.894s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces
+[1.894s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg
+[1.894s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+[1.895s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__builder.hpp
+[1.895s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__traits.hpp
+[1.895s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__struct.hpp
+[1.895s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/turtle_msg.hpp
+[1.896s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv
+[1.896s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail
+[1.911s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__struct.hpp
+[1.912s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__traits.hpp
+[1.912s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__traits.hpp
+[1.912s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__struct.hpp
+[1.912s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__builder.hpp
+[1.912s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__builder.hpp
+[1.913s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/set_pose.hpp
+[1.913s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/set_color.hpp
+[1.913s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces
+[1.913s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg
+[1.913s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+[1.914s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp
+[1.914s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.914s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv
+[1.914s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail
+[1.914s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.915s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__type_support.cpp
+[1.915s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp
+[1.915s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/include/turtle_interfaces/srv/detail/set_pose__type_support.cpp
+[1.915s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.915s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[1.916s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[1.916s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[1.916s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/__init__.py
+[1.973s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg
+[1.978s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/__init__.py
+[1.978s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_turtle_msg_s.c
+[1.978s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_turtle_msg.py
+[1.979s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/srv
+[1.979s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/srv/_set_color.py
+[1.980s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/srv/__init__.py
+[1.980s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/srv/_set_pose_s.c
+[1.980s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/srv/_set_pose.py
+[1.980s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/srv/_set_color_s.c
+[1.980s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.981s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.982s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.982s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/lib/libturtle_interfaces__python.so
+[1.983s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleMsg.idl
+[1.983s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose.idl
+[1.983s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor.idl
+[1.983s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleMsg.msg
+[2.001s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose.srv
+[2.002s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose_Request.msg
+[2.002s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetPose_Response.msg
+[2.002s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor.srv
+[2.002s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor_Request.msg
+[2.005s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetColor_Response.msg
+[2.006s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[2.006s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[2.006s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[2.006s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[2.007s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[2.007s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[2.007s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[2.007s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[2.009s] -- Installing: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[2.009s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[2.010s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_generator_cExport.cmake
+[2.010s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.010s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.010s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.014s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[2.015s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.015s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_generator_cppExport.cmake
+[2.015s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.015s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.015s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.016s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.017s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[2.017s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[2.017s] -- Up-to-date: /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[2.023s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/turtle_interfaces

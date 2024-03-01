@@ -1,0 +1,24 @@
+[2.245s] Invoking command in '/home/yahboom/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/roscourse_ws/build/webcam/prefix_override:/home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/roscourse_ws/build/webcam/build --no-deps install_data
+[2.839s] running develop
+[3.164s] running egg_info
+[3.164s] creating webcam.egg-info
+[3.164s] writing webcam.egg-info/PKG-INFO
+[3.165s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[3.166s] writing entry points to webcam.egg-info/entry_points.txt
+[3.166s] writing requirements to webcam.egg-info/requires.txt
+[3.166s] writing top-level names to webcam.egg-info/top_level.txt
+[3.175s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[3.245s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[3.247s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[3.329s] running build_ext
+[3.331s] Creating /home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages/site.py
+[3.337s] Creating /home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages/webcam.egg-link (link to .)
+[3.339s] 
+[3.339s] Installed /home/yahboom/roscourse_ws/build/webcam
+[3.340s] running install_data
+[3.340s] creating /home/yahboom/roscourse_ws/install/webcam/share/ament_index
+[3.340s] creating /home/yahboom/roscourse_ws/install/webcam/share/ament_index/resource_index
+[3.341s] creating /home/yahboom/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[3.341s] copying resource/webcam -> /home/yahboom/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[3.342s] copying package.xml -> /home/yahboom/roscourse_ws/install/webcam/share/webcam
+[3.404s] Invoked command in '/home/yahboom/roscourse_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/roscourse_ws/build/webcam/prefix_override:/home/yahboom/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/roscourse_ws/build/webcam/build --no-deps install_data

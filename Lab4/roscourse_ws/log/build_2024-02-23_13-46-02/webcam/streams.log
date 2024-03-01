@@ -1,0 +1,22 @@
+[4.197s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/build install --record /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/install.log --install-scripts $base/lib/webcam --single-version-externally-managed
+[5.678s] running egg_info
+[5.680s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[5.690s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[5.693s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[5.693s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[5.693s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[5.928s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[5.938s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[5.939s] running build
+[5.949s] running build_py
+[5.952s] running install
+[5.975s] running install_lib
+[5.990s] running install_data
+[5.991s] running install_egg_info
+[5.996s] removing '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages/webcam-0.0.0-py3.8.egg-info' (and everything under it)
+[6.008s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages/webcam-0.0.0-py3.8.egg-info
+[6.008s] running install_scripts
+[6.132s] Installing webcam_pub script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/webcam
+[6.136s] Installing webcam_sub script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/webcam
+[6.138s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/install.log'
+[6.271s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/build install --record /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/install.log --install-scripts $base/lib/webcam --single-version-externally-managed

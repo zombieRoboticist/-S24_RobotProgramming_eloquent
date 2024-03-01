@@ -1,0 +1,18 @@
+[3.943s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/build --no-deps install_data
+[4.788s] running develop
+[5.274s] running egg_info
+[5.276s] writing webcam.egg-info/PKG-INFO
+[5.278s] writing dependency_links to webcam.egg-info/dependency_links.txt
+[5.281s] writing entry points to webcam.egg-info/entry_points.txt
+[5.283s] writing requirements to webcam.egg-info/requires.txt
+[5.284s] writing top-level names to webcam.egg-info/top_level.txt
+[5.354s] reading manifest file 'webcam.egg-info/SOURCES.txt'
+[5.357s] writing manifest file 'webcam.egg-info/SOURCES.txt'
+[5.441s] running build_ext
+[5.442s] Creating /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages/webcam.egg-link (link to .)
+[5.445s] Installing webcam_pub script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/webcam
+[5.445s] Installing webcam_sub script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/webcam
+[5.446s] 
+[5.446s] Installed /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam
+[5.446s] running install_data
+[5.513s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/webcam/build --no-deps install_data

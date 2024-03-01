@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing python_turtle.egg-info/PKG-INFO
+writing dependency_links to python_turtle.egg-info/dependency_links.txt
+writing entry points to python_turtle.egg-info/entry_points.txt
+writing requirements to python_turtle.egg-info/requires.txt
+writing top-level names to python_turtle.egg-info/top_level.txt
+reading manifest file 'python_turtle.egg-info/SOURCES.txt'
+writing manifest file 'python_turtle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python-turtle.egg-link (link to .)
+Installing service_client script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/python_turtle/lib/python_turtle
+Installing turtlebot_client script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/python_turtle/lib/python_turtle
+Installing turtlebot_server script to /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/python_turtle/lib/python_turtle
+
+Installed /home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/build/python_turtle
+running install_data
+warning: install_data: setup script did not provide a directory for 'launch/*launch.[pxy][yma]*' -- installing right in '/home/yahboom/S24_RobotProgramming_eloquent/Lab4/roscourse_ws/install/python_turtle'
+
+error: can't copy 'launch/*launch.[pxy][yma]*': doesn't exist or not a regular file

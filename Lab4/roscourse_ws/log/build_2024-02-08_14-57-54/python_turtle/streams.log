@@ -1,0 +1,18 @@
+[1.471s] Invoking command in '/home/yahboom/roscourse_ws/build/python_turtle': AMENT_PREFIX_PATH=/home/yahboom/roscourse_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/roscourse_ws/install/turtle_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/roscourse_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yahboom/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:/home/yahboom/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/roscourse_ws/build/python_turtle/build --no-deps install_data
+[1.935s] running develop
+[2.416s] running egg_info
+[2.417s] writing python_turtle.egg-info/PKG-INFO
+[2.417s] writing dependency_links to python_turtle.egg-info/dependency_links.txt
+[2.418s] writing entry points to python_turtle.egg-info/entry_points.txt
+[2.418s] writing requirements to python_turtle.egg-info/requires.txt
+[2.418s] writing top-level names to python_turtle.egg-info/top_level.txt
+[2.478s] reading manifest file 'python_turtle.egg-info/SOURCES.txt'
+[2.480s] writing manifest file 'python_turtle.egg-info/SOURCES.txt'
+[2.544s] running build_ext
+[2.545s] Creating /home/yahboom/roscourse_ws/install/python_turtle/lib/python3.8/site-packages/python-turtle.egg-link (link to .)
+[2.547s] Installing turtlebot_client script to /home/yahboom/roscourse_ws/install/python_turtle/lib/python_turtle
+[2.548s] Installing turtlebot_server script to /home/yahboom/roscourse_ws/install/python_turtle/lib/python_turtle
+[2.548s] 
+[2.548s] Installed /home/yahboom/roscourse_ws/build/python_turtle
+[2.549s] running install_data
+[2.600s] Invoked command in '/home/yahboom/roscourse_ws/build/python_turtle' returned '0': AMENT_PREFIX_PATH=/home/yahboom/roscourse_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/roscourse_ws/install/turtle_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/roscourse_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yahboom/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:/home/yahboom/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yahboom/roscourse_ws/build/python_turtle/build --no-deps install_data

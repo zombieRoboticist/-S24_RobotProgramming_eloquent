@@ -1,0 +1,20 @@
+CMake Warning (dev) at CMakeLists.txt:38:
+  Syntax Warning in cmake code at column 20
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:39:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+  the CMAKE_CURRENT_SOURCE_DIR
+  '/home/yahboom/roscourse_ws/src/turtle_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (rosidl_generate_interfaces)
+
+
