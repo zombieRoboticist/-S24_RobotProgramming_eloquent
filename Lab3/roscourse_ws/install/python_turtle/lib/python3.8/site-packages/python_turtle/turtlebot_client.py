@@ -1,5 +1,7 @@
 import rclpy
 from rclpy.node import Node
+from rclpy.parameter import Parameter
+from rcl_interfaces.msg import ParameterDescriptor
 import math
 import random
 
@@ -21,12 +23,31 @@ class TurtleClient(Node):
         self.turtle_display.shape("turtle")
         self.turtle = TurtleMsg()
 
+        #### create turtle color parameter ####
+        self.declare_parameter('turtleColor', 'black', ParameterDescriptor(description='defaultTurtleColor'))
+        turtleColor = self.get_parameter('turtleColor').get_parameter_value().string_value
+        self.turtle_display.color(turtleColor)
+
+        #### set up turtle color upon initialization ####
+        self.color_cli = self.create_client(SetColor, 'setColor')
+        while not self.color_cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Color service not available, waiting...')
+        self.color_req = SetColor.Request()
+        self.color_req.color = turtleColor
+        self.server_call = True
+        self.service_future = self.color_cli.call_async(self.color_req)
+
         #### publisher define ####
         self.twist_pub = self.create_publisher(Twist, 'turtleDrive', 1)
         ##########################
 
         #### subscribing turtlebot state ####
         self.turtle_sub = self.create_subscription(TurtleMsg, 'turtleState', self.turtle_callback, 1)
+
+        #### create turtle pen size parameter ####
+        self.declare_parameter('penSize', 10, ParameterDescriptor(description = 'defaultPenSize'))
+        penSize = self.get_parameter('penSize').get_parameter_value().integer_value
+        self.turtle_display.pensize(penSize)
 
     def turtle_callback(self, msg):
 
@@ -102,7 +123,7 @@ def main(args=None):
         cmd_msg = Twist()
         cmd_msg.linear.x = float(50 * unit_x)
         cmd_msg.angular.z = float(1 * unit_z)
-        cli_obj.twist_pub.publish(cmd_msg)
+        #cli_obj.twist_pub.publish(cmd_msg) commented out as part of lab4
 
     # Destory the node explicitly
     cli_obj.destroy_node()
