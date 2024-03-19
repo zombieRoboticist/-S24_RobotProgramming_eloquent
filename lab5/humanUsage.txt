@@ -1,0 +1,7 @@
+Cailean: ran part 1 and some of part 2
+Logan: emotional support, pell check, helped with tasks 2 and 3
+Jack: holder of backpack in part 3, robot wrangler, ran tasks 1, 2
+Nikolas: ran parts 2 and 3
+Ethan: comunications support, task 1
+
+all: this doc/report
