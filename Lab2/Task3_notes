@@ -1,4 +1,0 @@
-I used the command:
-ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 2.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
-By changing one value at a time and leaving all other values 0.0, I was able to make the turtle make a square by drawing straight 
-lines in succession. First I did x=2.0 to go down, then y=-2.0 to go left, x=-2.0 to go back up, and finally, y=2 to go right. 
