@@ -1,0 +1,36 @@
+[3.842s] Invoking command in '/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed
+[4.843s] running egg_info
+[4.849s] creating ../../build/my_robot/my_robot.egg-info
+[4.853s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[4.861s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[4.867s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[4.871s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[4.875s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[4.901s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[5.065s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[5.081s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[5.086s] running build
+[5.089s] running build_py
+[5.093s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build
+[5.097s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build/lib
+[5.101s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build/lib/my_robot
+[5.107s] copying my_robot/__init__.py -> /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build/lib/my_robot
+[5.110s] running install
+[5.114s] running install_lib
+[5.122s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages/my_robot
+[5.126s] copying /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages/my_robot
+[5.136s] byte-compiling /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages/my_robot/__init__.py to __init__.cpython-38.pyc
+[5.153s] running install_data
+[5.160s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/ament_index
+[5.164s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index
+[5.169s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[5.173s] copying resource/my_robot -> /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/ament_index/resource_index/packages
+[5.177s] copying package.xml -> /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/my_robot
+[5.187s] copying urdf/my_robot.urdf -> /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/my_robot
+[5.198s] creating /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[5.202s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[5.209s] running install_egg_info
+[5.227s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+[5.301s] running install_scripts
+[5.377s] writing list of installed files to '/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/install.log'
+[5.479s] Invoked command in '/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/lab6/roscourse_sim_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed
