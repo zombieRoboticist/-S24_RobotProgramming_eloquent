@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_robot/my_robot.egg-info
+writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/build/my_robot/build
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/build/my_robot/build/lib
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/build/my_robot/build/lib/my_robot
+copying my_robot/__init__.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/build/my_robot/build/lib/my_robot
+running install
+running install_lib
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/lib/python3.8/site-packages/my_robot
+copying /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/lib/python3.8/site-packages/my_robot
+byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/lib/python3.8/site-packages/my_robot/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/ament_index
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/ament_index/resource_index
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/ament_index/resource_index/packages
+copying resource/my_robot -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/my_robot
+copying urdf/my_robot.urdf -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/my_robot
+creating /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/my_robot/launch
+copying launch/my_robot_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/my_robot/launch
+copying rviz/my_robot.rviz -> /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/share/my_robot
+running install_egg_info
+Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/build/my_robot/install.log'

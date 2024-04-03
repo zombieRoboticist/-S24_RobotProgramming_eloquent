@@ -1,0 +1,286 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.299s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f410b4140a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f410b4140a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f410b4145e0>)
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.335s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_turtle) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_turtle' with type 'ros.ament_python' and name 'python_turtle'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webcam' with type 'ros.ament_python' and name 'webcam'
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install
+[0.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/yahboom/yahboomcar_ros2_ws/software/library_ws/install
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install
+[0.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/foxy
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'python_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'python_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle', 'merge_install': False, 'path': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle', 'symlink_install': False, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces', 'merge_install': False, 'path': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'webcam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'webcam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam', 'merge_install': False, 'path': '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/webcam', 'symlink_install': False, 'test_result_base': None}
+[0.475s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.479s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle' with build type 'ament_python'
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_turtle', 'ament_prefix_path')
+[0.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/hook/ament_prefix_path.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/hook/ament_prefix_path.dsv'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/hook/ament_prefix_path.sh'
+[0.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/turtle_interfaces' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/turtle_interfaces'
+[0.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/webcam' with build type 'ament_python'
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('webcam', 'ament_prefix_path')
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/hook/ament_prefix_path.ps1'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/hook/ament_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/hook/ament_prefix_path.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle'
+[0.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[1.049s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/webcam'
+[1.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/build
+[1.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build
+[1.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/build
+[1.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/install.log --install-scripts $base/lib/webcam --single-version-externally-managed
+[1.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build
+[1.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
+[2.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/webcam/install.log --install-scripts $base/lib/webcam --single-version-externally-managed
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam' for CMake module files
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam' for CMake config files
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib'
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/bin'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/pkgconfig/webcam.pc'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/lib/python3.8/site-packages'
+[2.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('webcam', 'pythonpath')
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/hook/pythonpath.ps1'
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/hook/pythonpath.dsv'
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/hook/pythonpath.sh'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/bin'
+[2.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webcam)
+[2.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/package.ps1'
+[2.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/package.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/package.sh'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/package.bash'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/webcam/package.zsh'
+[2.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/webcam/share/colcon-core/packages/webcam)
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle' for CMake module files
+[2.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/src/python_turtle' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_turtle build --build-base /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/build install --record /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/python_turtle/install.log --install-scripts $base/lib/python_turtle --single-version-externally-managed
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle' for CMake config files
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/bin'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/pkgconfig/python_turtle.pc'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/lib/python3.8/site-packages'
+[2.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_turtle', 'pythonpath')
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/hook/pythonpath.ps1'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/hook/pythonpath.dsv'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/hook/pythonpath.sh'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/bin'
+[2.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_turtle)
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/package.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/package.dsv'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/package.sh'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/package.bash'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/python_turtle/package.zsh'
+[2.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/python_turtle/share/colcon-core/packages/python_turtle)
+[4.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[4.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces
+[5.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces' for CMake module files
+[5.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/S24_RobotProgramming_eloquent/lab6/roscourse_sim-ws/install/my_robot:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_rviz:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/home/yahboom/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/build/turtle_interfaces
+[5.047s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces' for CMake config files
+[5.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[5.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[5.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[5.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[5.051s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/lib'
+[5.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[5.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[5.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[5.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/bin'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages'
+[5.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[5.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[5.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[5.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[5.055s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/bin'
+[5.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[5.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[5.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[5.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces' for CMake module files
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces' for CMake config files
+[5.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[5.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[5.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[5.175s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/lib'
+[5.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/bin'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/lib/python3.8/site-packages'
+[5.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[5.180s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/bin'
+[5.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[5.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[5.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[5.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[5.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[5.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[5.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.184s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.184s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.184s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.192s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.208s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/local_setup.ps1'
+[5.210s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/_local_setup_util_ps1.py'
+[5.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/setup.ps1'
+[5.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/local_setup.sh'
+[5.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/_local_setup_util_sh.py'
+[5.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/setup.sh'
+[5.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/local_setup.bash'
+[5.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/setup.bash'
+[5.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/local_setup.zsh'
+[5.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/S24_RobotProgramming_eloquent/lab3/roscourse_ws/install/setup.zsh'
