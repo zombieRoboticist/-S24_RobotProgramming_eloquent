@@ -1,0 +1,23 @@
+[2.607s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/src/my_robot': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed
+[3.674s] running egg_info
+[3.676s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[3.677s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[3.678s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[3.678s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[3.678s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[3.785s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[3.789s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[3.790s] running build
+[3.790s] running build_py
+[3.790s] running install
+[3.793s] running install_lib
+[3.806s] running install_data
+[3.807s] copying urdf/my_robot.urdf.xacro -> /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/share/my_robot
+[3.808s] copying urdf/my_robot.urdf -> /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/share/my_robot
+[3.812s] copying launch/my_robot_xacro_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/share/my_robot/launch
+[3.812s] running install_egg_info
+[3.816s] removing '/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[3.818s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+[3.820s] running install_scripts
+[3.865s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/install.log'
+[3.919s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/build install --record /home/yahboom/S24_RobotProgramming_eloquent/Lab6/roscourse_sim_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed
