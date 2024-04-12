@@ -1,0 +1,60 @@
+[1.843s] Invoking command in '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/src/rosmaster_sim': PYTHONPATH=/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/prefix_override:/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosmaster_sim build --build-base /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build install --record /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log --install-scripts $base/lib/rosmaster_sim --single-version-externally-managed
+[2.077s] running egg_info
+[2.078s] creating ../../build/rosmaster_sim/rosmaster_sim.egg-info
+[2.079s] writing ../../build/rosmaster_sim/rosmaster_sim.egg-info/PKG-INFO
+[2.079s] writing dependency_links to ../../build/rosmaster_sim/rosmaster_sim.egg-info/dependency_links.txt
+[2.080s] writing entry points to ../../build/rosmaster_sim/rosmaster_sim.egg-info/entry_points.txt
+[2.080s] writing requirements to ../../build/rosmaster_sim/rosmaster_sim.egg-info/requires.txt
+[2.080s] writing top-level names to ../../build/rosmaster_sim/rosmaster_sim.egg-info/top_level.txt
+[2.090s] writing manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[2.120s] reading manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[2.121s] writing manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[2.121s] running build
+[2.122s] running build_py
+[2.122s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build
+[2.122s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build/lib
+[2.122s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build/lib/rosmaster_sim
+[2.123s] copying rosmaster_sim/__init__.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build/lib/rosmaster_sim
+[2.123s] running install
+[2.124s] running install_lib
+[2.125s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim
+[2.126s] copying /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build/lib/rosmaster_sim/__init__.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim
+[2.126s] byte-compiling /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim/__init__.py to __init__.cpython-38.pyc
+[2.127s] running install_data
+[2.128s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/ament_index
+[2.128s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/ament_index/resource_index
+[2.128s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/ament_index/resource_index/packages
+[2.128s] copying resource/rosmaster_sim -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/ament_index/resource_index/packages
+[2.129s] copying package.xml -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.129s] copying urdf/yahboomcar_X3.urdf -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.129s] copying urdf/yahboomcar_R2.urdf -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.129s] copying urdf/rosmaster.urdf -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.129s] copying urdf/rosmaster.xacro -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.129s] copying urdf/yahboomcar_X3.urdf.xacro -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.130s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/launch
+[2.130s] copying launch/my_robot_xacro_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/launch
+[2.130s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/launch
+[2.130s] copying launch/my_robot_gazebo_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/launch
+[2.131s] copying rviz/rosmaster.rviz -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim
+[2.131s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes
+[2.131s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/sensor
+[2.131s] copying meshes/sensor/laser_link.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/sensor
+[2.141s] copying meshes/sensor/camera_link.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/sensor
+[2.142s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/mecanum
+[2.142s] copying meshes/mecanum/front_left_wheel.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/mecanum
+[2.145s] copying meshes/mecanum/front_right_wheel.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/mecanum
+[2.198s] copying meshes/mecanum/base_link.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/mecanum
+[2.287s] copying meshes/mecanum/back_right_wheel.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/mecanum
+[2.343s] copying meshes/mecanum/back_left_wheel.STL -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/mecanum
+[2.402s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/Ackerman
+[2.402s] creating /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/urdf
+[2.402s] copying urdf/yahboomcar_X3.urdf -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/urdf
+[2.403s] copying urdf/yahboomcar_R2.urdf -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/urdf
+[2.403s] copying urdf/rosmaster.urdf -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/urdf
+[2.405s] copying urdf/rosmaster.xacro -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/urdf
+[2.405s] copying urdf/yahboomcar_X3.urdf.xacro -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/urdf
+[2.406s] running install_egg_info
+[2.410s] Copying ../../build/rosmaster_sim/rosmaster_sim.egg-info to /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info
+[2.414s] running install_scripts
+[2.514s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log'
+[2.562s] Invoked command in '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/src/rosmaster_sim' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/prefix_override:/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosmaster_sim build --build-base /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build install --record /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log --install-scripts $base/lib/rosmaster_sim --single-version-externally-managed

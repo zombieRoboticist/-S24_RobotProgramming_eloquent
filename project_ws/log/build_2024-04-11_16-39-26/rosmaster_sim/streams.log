@@ -1,0 +1,21 @@
+[0.772s] Invoking command in '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/src/rosmaster_sim': PYTHONPATH=/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/prefix_override:/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosmaster_sim build --build-base /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build install --record /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log --install-scripts $base/lib/rosmaster_sim --single-version-externally-managed
+[1.007s] running egg_info
+[1.007s] writing ../../build/rosmaster_sim/rosmaster_sim.egg-info/PKG-INFO
+[1.008s] writing dependency_links to ../../build/rosmaster_sim/rosmaster_sim.egg-info/dependency_links.txt
+[1.008s] writing entry points to ../../build/rosmaster_sim/rosmaster_sim.egg-info/entry_points.txt
+[1.008s] writing requirements to ../../build/rosmaster_sim/rosmaster_sim.egg-info/requires.txt
+[1.008s] writing top-level names to ../../build/rosmaster_sim/rosmaster_sim.egg-info/top_level.txt
+[1.042s] reading manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[1.043s] writing manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[1.043s] running build
+[1.043s] running build_py
+[1.043s] running install
+[1.044s] running install_lib
+[1.046s] running install_data
+[1.046s] copying launch/my_robot_gazebo_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/launch
+[1.047s] running install_egg_info
+[1.048s] removing '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info' (and everything under it)
+[1.049s] Copying ../../build/rosmaster_sim/rosmaster_sim.egg-info to /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info
+[1.051s] running install_scripts
+[1.069s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log'
+[1.095s] Invoked command in '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/src/rosmaster_sim' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/prefix_override:/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosmaster_sim build --build-base /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build install --record /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log --install-scripts $base/lib/rosmaster_sim --single-version-externally-managed

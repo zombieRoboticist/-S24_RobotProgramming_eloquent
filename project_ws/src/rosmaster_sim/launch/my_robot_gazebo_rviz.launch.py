@@ -13,7 +13,7 @@ from launch.actions import IncludeLaunchDescription
 def generate_launch_description():
 
     my_robot_path = get_package_share_directory('rosmaster_sim')
-    urdf = os.path.join(my_robot_path , 'rosmaster.urdf')
+    urdf = os.path.join(my_robot_path , 'yahboomcar_X3.urdf')
     rviz_config = os.path.join(my_robot_path, 'rosmaster.rviz')
     #rviz_config = '/home/yahboom/roscourse_sim_ws/src/my_robot/rviz/my_robot.rviz'
     
@@ -52,7 +52,7 @@ def generate_launch_description():
     gazebo_robot = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description', '-entity', 'my_robot'])
+        arguments=['-topic', 'robot_description', '-entity', 'yahboomcar_X3'])
 
 
     return LaunchDescription([

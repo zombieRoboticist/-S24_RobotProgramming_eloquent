@@ -29,7 +29,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://rosmaster_sim/meshes/mecanum/base_link.STL"/>
+                <box size="0.5 0.5 0.5" />
             </geometry>
         </collision>
     </link>
@@ -66,7 +66,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name="front_right_joint" type="continuous">
+    <joint name="front_right_joint" type="fixed">
         <origin xyz="0.08 -0.0845 -0.0389" rpy="-1.5703 0 3.14159"/>
         <parent link="base_link"/>
         <child link="front_right_wheel"/>
@@ -96,7 +96,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name="front_left_joint" type="continuous">
+    <joint name="front_left_joint" type="fixed">
         <origin xyz="0.08 0.084492 -0.0389" rpy="1.5703 0 0"/>
         <parent link="base_link"/>
         <child link="front_left_wheel"/>
@@ -126,7 +126,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name="back_right_joint" type="continuous">
+    <joint name="back_right_joint" type="fixed">
         <origin xyz="-0.08 -0.0845 -0.03946" rpy="-1.57 0 3.14159"/>
         <parent link="base_link"/>
         <child link="back_right_wheel"/>
@@ -156,7 +156,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name="back_left_joint" type="continuous">
+    <joint name="back_left_joint" type="fixed">
         <origin xyz="-0.08 0.084492 -0.03954" rpy="1.5703 0 0"/>
         <parent link="base_link"/>
         <child link="back_left_wheel"/>
@@ -218,4 +218,28 @@
         <parent link="base_link"/>
         <child link="camera_link"/>
     </joint>
+
+    <gazebo reference="base_link"> 
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo>
+        <plugin name="gazebo_ros_planar_move" filename="libgazebo_ros_planar_move.so">
+
+        <update_rate>100</update_rate>
+        <publish_rate>10</publish_rate>
+
+        <!-- output -->
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+
+        <odometry_frame>base_imu</odometry_frame>
+        <robot_base_frame>base_footprint</robot_base_frame>
+
+        <covariance_x>0.0001</covariance_x>
+        <covariance_y>0.0001</covariance_y>
+        <covariance_yaw>0.01</covariance_yaw>
+
+        </plugin>
+    </gazebo>
 </robot>
