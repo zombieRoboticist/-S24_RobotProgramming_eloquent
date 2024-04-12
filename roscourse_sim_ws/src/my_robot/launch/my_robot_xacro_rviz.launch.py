@@ -6,42 +6,44 @@ from launch.substitutions import Command, LaunchConfiguration
 from launch.conditions import IfCondition, UnlessCondition
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
 
     my_robot_path = get_package_share_directory('my_robot')
-    urdf = os.path.join(my_robot_path , 'my_robot.urdf')
+    urdf = os.path.join(my_robot_path , 'my_robot.urdf.xacro')
     rviz_config = os.path.join(my_robot_path, 'my_robot.rviz')
     #rviz_config = '/home/yahboom/roscourse_sim_ws/src/my_robot/rviz/my_robot.rviz'
-
+    
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
-
+    
     sim_time_arg = DeclareLaunchArgument(
             name='use_sim_time',
             default_value='false', choices=['true','false'],
             description='Use simulation (Gazebo) clock if true')
-
-    gui_arg = DeclareLaunchArgument(name='gui',
-            default_value='true', choices=['true', 'false'],
+    
+    gui_arg = DeclareLaunchArgument(name='gui', 
+            default_value='true', choices=['true', 'false'], 
             description='Flag to enable joint_state_publisher_gui')
-
+            
     rviz_arg = DeclareLaunchArgument(name='rvizconfig', default_value=str(rviz_config),
                                      description='Absolute path to rviz config file')
 
-    with open(urdf, 'r') as infp:
-        robot_desc = infp.read()
-
+   # with open(urdf, 'r') as infp:
+    #    robot_desc = infp.read()
+    robot_desc = ParameterValue(Command(['xacro ', urdf]), value_type=str)
+        
         # Depending on gui parameter, either launch joint_state_publisher or joint_state_publisher_gui
     joint_state_publisher_node = Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
-        condition=UnlessCondition(LaunchConfiguration('gui'))    )
+        condition=IfCondition(LaunchConfiguration('gui'))    )
 
     joint_state_publisher_gui_node = Node(
         package='joint_state_publisher_gui',
         executable='joint_state_publisher_gui',
         condition=IfCondition(LaunchConfiguration('gui'))    )
-
+        
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
@@ -49,13 +51,14 @@ def generate_launch_description():
         output='screen',
         parameters=[{'use_sim_time': use_sim_time, 'robot_description': robot_desc}],
         arguments=[urdf])
-
+        
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
         name='rviz2',
         output='screen',
         arguments=['-d', LaunchConfiguration('rvizconfig')])
+
 
     return LaunchDescription([
         sim_time_arg,
