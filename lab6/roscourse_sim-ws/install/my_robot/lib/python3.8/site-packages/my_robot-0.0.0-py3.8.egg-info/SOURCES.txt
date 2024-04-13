@@ -8,6 +8,7 @@ setup.py
 ../../build/my_robot/my_robot.egg-info/requires.txt
 ../../build/my_robot/my_robot.egg-info/top_level.txt
 ../../build/my_robot/my_robot.egg-info/zip-safe
+launch/my_robot_gazebo_rviz.launch.py
 launch/my_robot_rviz.launch.py
 launch/my_robot_xacro_rviz.launch.py
 my_robot/__init__.py

@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-	<xacro: property name="base_length" value="0.6" />
-	<xacro: property name="base_width" value="0.4" />
-	<xacro: Property name="base_height" value="0.2" />
-	<xacro: property name="wheel_radius" value="0.1" />
-	<xacro: property name="wheel_length" value="0.05" />
-	
+	<xacro:property name="base_length" value="0.6" />
+	<xacro:property name="base_width" value="0.4" />
+	<xacro:property name="base_height" value="0.2" />
+	<xacro:property name="wheel_radius" value="0.1" />
+	<xacro:property name="wheel_length" value="0.05" />
+
 	<xacro:macro name="box_inertia" params="mass lx ly lz xyz rpy">
 		<inertial> 
 			<origin xyz="${xyz}" rpy="${rpy}" />
 			<mass value="${mass}" />
 			<inertia ixx="${(mass/12.0)*(ly*ly+lz*lz)}" ixy="0" ixz="0"
 			iyy="${(mass/12.0)*(lx*lx+lz*lz)}" iyz="0" 
-			ixx="${(mass/12.0)*(ly*ly+lx*lx)}" />
+			izz="${(mass/12.0)*(ly*ly+lx*lx)}" />
 		</inertial>
 	</xacro:macro>
 	
@@ -23,7 +23,7 @@
 			<mass value="${mass}" />
 			<inertia ixx="${(mass/12.0)*(3.0*radius*radius+height*height)}" ixy="0" ixz="0"
 			iyy="${(mass/12.0)*(3.0*radius*radius+height*height)}" iyz="0" 
-			ixx="${(mass/2.0)*(radius*radius)}" />
+			izz="${(mass/2.0)*(radius*radius)}" />
 		</inertial>
 	</xacro:macro>
 	
@@ -33,10 +33,10 @@
 			<mass value="${mass}" />
 			<inertia ixx="${(mass*.4)*(radius*radius)}" ixy="0" ixz="0" 
 			iyy="${(mass*.4)*(radius*radius)}" iyz="0" 
-			ixx="${(mass*.4)*(radius*radius)}" />
+			izz="${(mass*.4)*(radius*radius)}" />
 		</inertial>
 	</xacro:macro>
-	
+
 	<material name="green">
 		<color rgba="0 .6 0 1"/>
 	</material>
@@ -167,5 +167,48 @@
 		<child link="base_link"/>
 		<origin xyz="0 0 ${wheel_radius}" rpy="0 0 0"/>
 	</joint> 
+	
+	
+	
+	<gazebo reference="base_link">
+		<material>Gazebo/Green</material>
+	</gazebo>
+	<gazebo reference="lidar">
+		<material>Gazebo/White</material>
+	</gazebo>
+	<gazebo reference="right_wheel">
+		<material>Gazebo/Gray</material>
+	</gazebo>
+	<gazebo reference="left_wheel">
+		<material>Gazebo/Gray</material>
+	</gazebo>
+	<gazebo reference="caster_wheel">
+		<material>Gazebo/Gray</material>
+	</gazebo>
 		
+	<gazebo>
+		<plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+            		<!-- Update rate in Hz -->
+            		<update_rate>50</update_rate>
+            		<!-- wheels -->
+            		<left_joint>base_left_wheel_joint</left_joint>
+            		<right_joint>base_right_wheel_joint</right_joint>
+            		<!-- kinematics -->
+            		<wheel_separation>0.4</wheel_separation>
+            		<wheel_diameter>0.2</wheel_diameter>
+
+            		<!-- output -->
+            		<publish_odom>true</publish_odom>
+            		<publish_odom_tf>true</publish_odom_tf>
+           		 <publish_wheel_tf>true</publish_wheel_tf>
+
+           		 <odometry_topic>odom</odometry_topic>
+            		<odometry_frame>odom</odometry_frame>
+            		<robot_base_frame>base_footprint</robot_base_frame>
+
+            		<!-- input -->
+            		<command_topic>cmd_vel</command_topic>
+
+        	</plugin>
+    	</gazebo>
 </robot>
