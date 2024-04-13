@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/src/turtle_interfaces
+CMAKE_SOURCE_DIR = /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/src/turtle_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces
+CMAKE_BINARY_DIR = /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/CMakeFiles /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/CMakeFiles /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

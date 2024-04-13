@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 Python.h
 -
 stdbool.h
@@ -14,31 +14,31 @@ stdbool.h
 stdint.h
 -
 rosidl_runtime_c/visibility_control.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/visibility_control.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/visibility_control.h
 rosidl_runtime_c/message_type_support_struct.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/message_type_support_struct.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/service_type_support_struct.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/action_type_support_struct.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/action_type_support_struct.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/rosidl_runtime_c/action_type_support_struct.h
 turtle_interfaces/msg/detail/turtle_msg__type_support.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__type_support.h
 turtle_interfaces/msg/detail/turtle_msg__struct.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__struct.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__struct.h
 turtle_interfaces/msg/detail/turtle_msg__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/msg/detail/turtle_msg__functions.h
 turtle_interfaces/srv/detail/set_pose__type_support.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__type_support.h
 turtle_interfaces/srv/detail/set_pose__struct.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__struct.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__struct.h
 turtle_interfaces/srv/detail/set_pose__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_pose__functions.h
 turtle_interfaces/srv/detail/set_color__type_support.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_color__type_support.h
 turtle_interfaces/srv/detail/set_color__struct.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_color__struct.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_color__struct.h
 turtle_interfaces/srv/detail/set_color__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_color__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/turtle_interfaces/srv/detail/set_color__functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h

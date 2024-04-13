@@ -1,11 +1,11 @@
 {
   "package_name": "turtle_interfaces",
-  "output_dir": "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces",
+  "output_dir": "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleMsg.idl",
-    "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetPose.idl",
-    "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetColor.idl"
+    "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleMsg.idl",
+    "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetPose.idl",
+    "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/SetColor.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
@@ -79,9 +79,9 @@
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/msg/TurtleMsg.idl",
-    "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetPose.idl",
-    "/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetColor.idl",
+    "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/msg/TurtleMsg.idl",
+    "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetPose.idl",
+    "/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/SetColor.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl",

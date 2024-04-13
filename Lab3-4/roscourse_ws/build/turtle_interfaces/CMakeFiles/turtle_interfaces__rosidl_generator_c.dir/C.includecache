@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c
 turtle_interfaces/msg/detail/turtle_msg__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_interfaces/msg/detail/turtle_msg__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_interfaces/msg/detail/turtle_msg__functions.h
 assert.h
 -
 stdbool.h
@@ -18,15 +18,15 @@ stdlib.h
 string.h
 -
 rcutils/allocator.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/rcutils/allocator.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/rcutils/allocator.h
 rosidl_runtime_c/string_functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/rosidl_runtime_c/string_functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/rosidl_runtime_c/string_functions.h
 geometry_msgs/msg/detail/pose__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/geometry_msgs/msg/detail/pose__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/geometry_msgs/msg/detail/pose__functions.h
 
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c
 turtle_interfaces/srv/detail/set_color__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/turtle_interfaces/srv/detail/set_color__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/turtle_interfaces/srv/detail/set_color__functions.h
 assert.h
 -
 stdbool.h
@@ -36,13 +36,13 @@ stdlib.h
 string.h
 -
 rcutils/allocator.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/rcutils/allocator.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/rcutils/allocator.h
 rosidl_runtime_c/string_functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/rosidl_runtime_c/string_functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/rosidl_runtime_c/string_functions.h
 
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c
 turtle_interfaces/srv/detail/set_pose__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/turtle_interfaces/srv/detail/set_pose__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/turtle_interfaces/srv/detail/set_pose__functions.h
 assert.h
 -
 stdbool.h
@@ -52,9 +52,9 @@ stdlib.h
 string.h
 -
 rcutils/allocator.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/rcutils/allocator.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/rcutils/allocator.h
 geometry_msgs/msg/detail/pose_stamped__functions.h
-/home/yahboom/ArchDocs/SharedDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/geometry_msgs/msg/detail/pose_stamped__functions.h
+/home/yahboom/ArchDocs/ArchDocs/S24_RobotProgramming_eloquent/Lab3-4/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/geometry_msgs/msg/detail/pose_stamped__functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
