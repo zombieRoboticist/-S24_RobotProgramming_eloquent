@@ -1,0 +1,38 @@
+[1.291s] Invoking command in '/home/yahboom/S24_RobotProgramming_eloquent/test/src/my_robot': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build install --record /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed
+[1.868s] running egg_info
+[1.869s] creating ../../build/my_robot/my_robot.egg-info
+[1.870s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.870s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.871s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.872s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.873s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.878s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.964s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.965s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.966s] running build
+[1.966s] running build_py
+[1.967s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build
+[1.968s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build/lib
+[1.968s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build/lib/my_robot
+[1.968s] copying my_robot/__init__.py -> /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build/lib/my_robot
+[1.968s] running install
+[1.970s] running install_lib
+[1.974s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/lib/python3.8/site-packages/my_robot
+[1.974s] copying /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build/lib/my_robot/__init__.py -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/lib/python3.8/site-packages/my_robot
+[1.977s] byte-compiling /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/lib/python3.8/site-packages/my_robot/__init__.py to __init__.cpython-38.pyc
+[1.980s] running install_data
+[1.981s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/ament_index
+[1.982s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/ament_index/resource_index
+[1.982s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/ament_index/resource_index/packages
+[1.983s] copying resource/my_robot -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/ament_index/resource_index/packages
+[1.984s] copying package.xml -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/my_robot
+[1.984s] copying urdf/my_robot.urdf.xacro -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/my_robot
+[1.985s] copying urdf/my_robot.urdf -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/my_robot
+[1.985s] creating /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/my_robot/launch
+[1.985s] copying launch/my_robot_rviz.launch.py -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/my_robot/launch
+[1.985s] copying rviz/my_robot.rviz -> /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/share/my_robot
+[1.985s] running install_egg_info
+[1.988s] Copying ../../build/my_robot/my_robot.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+[1.991s] running install_scripts
+[2.035s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/install.log'
+[2.089s] Invoked command in '/home/yahboom/S24_RobotProgramming_eloquent/test/src/my_robot' returned '0': PYTHONPATH=/home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/prefix_override:/home/yahboom/S24_RobotProgramming_eloquent/test/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/build install --record /home/yahboom/S24_RobotProgramming_eloquent/test/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed
