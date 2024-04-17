@@ -46,7 +46,7 @@ class GoToPointServer(Node):
     def go_to_pose_callback(self, request, response):
         self.des_x = request.desired_pose.x
         self.des_y = request.desired_pose.y
-
+        self.get_logger().info("Going to pose %f" %self.des_x)
         tol = 0.1
         Kp = 1
         while(1):

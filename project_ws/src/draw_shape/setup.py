@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'shape_sub = draw_shape.shape_sub:main',
+            'go_to_point = draw_shape.go_to_point_server:main'
         ],
     },
 )
