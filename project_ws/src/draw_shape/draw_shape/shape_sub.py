@@ -32,6 +32,7 @@ class TranslateShape(Node):
 			self.z_targ = points[i][2]
 			self.send_request()
 			while(not self.future.done()):
+				self.get_logger().info("in loop")
 				pass
 		self.get_logger().info('drawing complete')
 

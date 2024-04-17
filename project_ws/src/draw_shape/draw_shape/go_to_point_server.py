@@ -49,19 +49,19 @@ class GoToPointServer(Node):
         self.get_logger().info("Going to pose %f" %self.des_x)
         tol = 0.1
         Kp = 1
-        while(1):
-            xError = self.des_x - self.pose_x
-            yError = self.des_y - self.pose_y
+        # while(1):
+        #     xError = self.des_x - self.pose_x
+        #     yError = self.des_y - self.pose_y
 
-            self.vel.linear.x = xError * Kp
-            self.vel.linear.y = yError * Kp
-
-
-            if(abs(xError) < tol and abs(yError) < tol):
-                vel
-                break
+        #     self.vel.linear.x = xError * Kp
+        #     self.vel.linear.y = yError * Kp
 
 
+        #     if(abs(xError) < tol and abs(yError) < tol):
+        #         vel
+        #         break
+
+        self.get_logger().info("Sending response")
         response.ret = 1
         return response
 
