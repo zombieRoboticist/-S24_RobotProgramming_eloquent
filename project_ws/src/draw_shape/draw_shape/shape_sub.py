@@ -18,23 +18,41 @@ class TranslateShape(Node):
 			self.get_logger().info('service not available, waiting...')
 		self.req = GoToPoint.Request()
 
+		#other variables
+		self.futures = []
+
+		self.scale_vals={
+			1:0.1,
+			2:0.2,
+			3:0.3,
+			4:0.4,
+			5:0.5
+		}
+		self.shape_points = {
+			'square'	:	[[1.0, 0.0, 0.0],[1.0, 1.0, 0.0],[0.0,1.0,0.0],[0.0,0.0,0.0]],
+			'triangle'	:	[[1.0,0.5,0.0],[0.0,1.0,0.0],[0.0,0.0,0.0]],
+			'line'		:	[[1.0,0.0,0.0],[0.0,0.0,0.0]]
+		}
+
 		
 	def listener_callback(self,msg):
-		self.get_logger().info('drawing shape "%s"' %msg.shape)
-		# Generate point list here
-		# We will call send request from here as well
-		points = [[1.0,1.0,1.0],[2.0,2.0,2.0],[3.0,3.0,3.0],[0.0,0.0,0.0]]
+		if (any(msg.shape in x for x in self.shape_points.keys()) & 
+	  			any(msg.shape in x for x in self.shape_points.keys())):
+			self.get_logger().info('drawing shape "%s"' %msg.shape)
+			# Generate point list here
+			# We will call send request from here as well
+			scale_fact = self.scale_vals[msg.size]
+			shape = self.shape_points[msg.shape]
 
-		for i in range(len(points)):
-			self.get_logger().info(f'sending point {i}')
-			self.x_targ = points[i][0]
-			self.y_targ = points[i][1]
-			self.z_targ = points[i][2]
-			self.send_request()
-			while(not self.future.done()):
-				self.get_logger().info("in loop")
-				pass
-		self.get_logger().info('drawing complete')
+			points=[[j*scale_fact for j in i] for i in shape]
+			
+			for i in range(len(points)):
+				self.get_logger().info(f'sending point {i}')
+				self.x_targ = points[i][0]
+				self.y_targ = points[i][1]
+				self.z_targ = points[i][2]
+				self.send_request()
+		else:self.get_logger().info("Invalid shape or size sent")
 
 
 	def send_request(self):
@@ -42,13 +60,28 @@ class TranslateShape(Node):
 		self.req.desired_pose.y = self.y_targ
 		self.req.desired_pose.z = self.z_targ
 			
-		self.future = self.cli.call_async(self.req)
+		self.futures.append(self.cli.call_async(self.req))
+
+	def spin(self):
+		# This loop structure from codebot/ros2_patterns github repo
+		while rclpy.ok():
+			rclpy.spin_once(self)
+			incomplete_futures = []
+			for f in self.futures:
+				if f.done():	
+					res = f.result()
+					self.get_logger().info("Arrived at point!")
+				else:
+					incomplete_futures.append(f)
+			self.futures = incomplete_futures
+	
 
 		
 def main(args=None):
 	rclpy.init(args=args)
 	translate_shape = TranslateShape()
-	rclpy.spin(translate_shape)
+	translate_shape.get_logger().info("Shape Translator Started")
+	translate_shape.spin()
 	translate_shape.destroy()
 	rclpy.shutdown()
 

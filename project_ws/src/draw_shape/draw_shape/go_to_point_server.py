@@ -46,7 +46,7 @@ class GoToPointServer(Node):
     def go_to_pose_callback(self, request, response):
         self.des_x = request.desired_pose.x
         self.des_y = request.desired_pose.y
-        self.get_logger().info("Going to pose %f" %self.des_x)
+        self.get_logger().info(f"Going to pose {self.des_x}, {self.des_y}")
         tol = 0.1
         Kp = 1
         # while(1):
@@ -60,9 +60,8 @@ class GoToPointServer(Node):
         #     if(abs(xError) < tol and abs(yError) < tol):
         #         vel
         #         break
-
-        self.get_logger().info("Sending response")
-        response.ret = 1
+        time.sleep(2)
+        response.ret = 0
         return response
 
     def driving_timer_cb(self):
