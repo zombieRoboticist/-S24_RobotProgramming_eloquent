@@ -60,7 +60,7 @@ class GoToPointServer(Node):
         self.pose_y = transform.transform.translation.y
         self.get_logger().info(f"Current Pose: {self.pose_x}, {self.pose_y}")
 
-        tol = 0.01
+        tol = 0.02
         Kp_x = 1
         Kp_y = 1.5
 
