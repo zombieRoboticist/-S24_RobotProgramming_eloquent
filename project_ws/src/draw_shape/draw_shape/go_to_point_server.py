@@ -47,7 +47,7 @@ class GoToPointServer(Node):
         self.des_x = request.desired_pose.x
         self.des_y = request.desired_pose.y
         self.get_logger().info(f"Going to pose {self.des_x}, {self.des_y}")
-        tol = 0.1
+        tol = 0.01
         Kp = 1
         while(1):
             xError = self.des_x - self.pose_x
@@ -56,12 +56,12 @@ class GoToPointServer(Node):
             self.vel.linear.x = xError * Kp
             self.vel.linear.y = yError * Kp
 
-
+            
             if(abs(xError) < tol and abs(yError) < tol):
                 self.vel.linear.x = 0
                 self.vel.linear.y = 0
                 break
-        time.sleep(2)
+            self.get_logger().info("Not to point yet, sending new command")
         response.ret = 0
         return response
 
