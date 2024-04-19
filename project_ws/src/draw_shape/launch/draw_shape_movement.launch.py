@@ -24,7 +24,8 @@ def generate_launch_description():
             executable = 'shape_sub',
             
             ######
-           # parameters = [{'turtleColor': 'blue', 'penSize':10}])
+           # parameters = [{'turtleColor': 'blue', 'penSize':10}]
+           )
             ######
 
     movement =  IncludeLaunchDescription(

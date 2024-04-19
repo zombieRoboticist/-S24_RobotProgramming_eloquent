@@ -1,0 +1,19 @@
+[1.701s] Invoking command in '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/src/rosmaster_sim': PYTHONPATH=/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/prefix_override:/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosmaster_sim build --build-base /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/build install --record /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log --install-scripts $base/lib/rosmaster_sim --single-version-externally-managed
+[2.124s] running egg_info
+[2.124s] writing ../../build/rosmaster_sim/rosmaster_sim.egg-info/PKG-INFO
+[2.124s] writing dependency_links to ../../build/rosmaster_sim/rosmaster_sim.egg-info/dependency_links.txt
+[2.125s] writing entry points to ../../build/rosmaster_sim/rosmaster_sim.egg-info/entry_points.txt
+[2.125s] writing requirements to ../../build/rosmaster_sim/rosmaster_sim.egg-info/requires.txt
+[2.125s] writing top-level names to ../../build/rosmaster_sim/rosmaster_sim.egg-info/top_level.txt
+[2.175s] reading manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[2.176s] writing manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+[2.177s] running build
+[2.177s] running build_py
+[2.177s] running install
+[2.180s] running install_lib
+[2.183s] running install_data
+[2.184s] running install_egg_info
+[2.187s] removing '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info' (and everything under it)
+[2.188s] Copying ../../build/rosmaster_sim/rosmaster_sim.egg-info to /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info
+[2.189s] running install_scripts
+[2.224s] writing list of installed files to '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log'

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/draw_shape/draw_shape.egg-info/PKG-INFO
+writing dependency_links to ../../build/draw_shape/draw_shape.egg-info/dependency_links.txt
+writing entry points to ../../build/draw_shape/draw_shape.egg-info/entry_points.txt
+writing requirements to ../../build/draw_shape/draw_shape.egg-info/requires.txt
+writing top-level names to ../../build/draw_shape/draw_shape.egg-info/top_level.txt
+reading manifest file '../../build/draw_shape/draw_shape.egg-info/SOURCES.txt'
+writing manifest file '../../build/draw_shape/draw_shape.egg-info/SOURCES.txt'
+running build
+running build_py
+copying draw_shape/shape_sub.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/draw_shape/build/lib/draw_shape
+running install
+running install_lib
+copying /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/draw_shape/build/lib/draw_shape/shape_sub.py -> /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/draw_shape/lib/python3.8/site-packages/draw_shape
+byte-compiling /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/draw_shape/lib/python3.8/site-packages/draw_shape/shape_sub.py to shape_sub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/draw_shape/lib/python3.8/site-packages/draw_shape-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/draw_shape/draw_shape.egg-info to /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/draw_shape/lib/python3.8/site-packages/draw_shape-0.0.0-py3.8.egg-info
+running install_scripts
+Installing go_to_point script to /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/draw_shape/lib/draw_shape
+Installing shape_sub script to /home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/install/draw_shape/lib/draw_shape
+writing list of installed files to '/home/yahboom/S24_RobotProgramming_Master/S24_RobotProgramming_eloquent/project_ws/build/draw_shape/install.log'
