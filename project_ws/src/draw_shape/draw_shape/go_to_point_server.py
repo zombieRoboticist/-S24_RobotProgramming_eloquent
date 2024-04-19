@@ -59,18 +59,21 @@ class GoToPointServer(Node):
         self.pose_x = transform.transform.translation.x
         self.pose_y = transform.transform.translation.y
         self.get_logger().info(f"Current Pose: {self.pose_x}, {self.pose_y}")
+        self.get_logger().info(f"Error: {se}")
 
         tol = 0.01
-        Kp = 1
+        Kp_x = 1
+        Kp_y = 1.5
 
         try:
             xError = self.des_x[0] - self.pose_x
             yError = self.des_y[0] - self.pose_y
+            self.get_logger().info(f"Error: {xError}, {yError}")
         except IndexError:
             return
 
-        self.vel.linear.x = xError * Kp
-        self.vel.linear.y = yError * Kp
+        self.vel.linear.x = xError * Kp_x
+        self.vel.linear.y = yError * Kp_y
 
         
         if(abs(xError) < tol and abs(yError) < tol):
