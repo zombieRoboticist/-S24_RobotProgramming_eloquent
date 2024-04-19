@@ -75,6 +75,7 @@ class GoToPointServer(Node):
             if(abs(xError) < tol and abs(yError) < tol):
                 self.vel.linear.x = 0
                 self.vel.linear.y = 0
+                self.twist_pub.publish(self.vel)
                 break
             self.twist_pub.publish(self.vel)
             self.get_logger().info(f"Error: {xError}, {yError}: Not to point yet, sending new command")
