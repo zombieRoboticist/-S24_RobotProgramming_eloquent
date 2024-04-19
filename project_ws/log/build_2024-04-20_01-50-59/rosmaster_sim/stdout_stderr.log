@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/rosmaster_sim/rosmaster_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/rosmaster_sim/rosmaster_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/rosmaster_sim/rosmaster_sim.egg-info/entry_points.txt
+writing requirements to ../../build/rosmaster_sim/rosmaster_sim.egg-info/requires.txt
+writing top-level names to ../../build/rosmaster_sim/rosmaster_sim.egg-info/top_level.txt
+reading manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/rosmaster_sim/rosmaster_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/yahboom/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/share/rosmaster_sim/meshes/Ackerman
+running install_egg_info
+removing '/home/yahboom/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/rosmaster_sim/rosmaster_sim.egg-info to /home/yahboom/S24_RobotProgramming_eloquent/project_ws/install/rosmaster_sim/lib/python3.8/site-packages/rosmaster_sim-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/yahboom/S24_RobotProgramming_eloquent/project_ws/build/rosmaster_sim/install.log'

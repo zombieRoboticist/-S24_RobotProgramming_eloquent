@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from draw_shape_interfaces/msg/ShapeDef.msg
+// generated code does not contain a copyright notice
+
+
+module draw_shape_interfaces {
+  module msg {
+    struct ShapeDef {
+      string shape;
+
+      uint8 size;
+    };
+  };
+};

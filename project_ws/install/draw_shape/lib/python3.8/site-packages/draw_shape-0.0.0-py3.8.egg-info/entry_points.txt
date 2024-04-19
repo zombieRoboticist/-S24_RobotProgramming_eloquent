@@ -1,0 +1,4 @@
+[console_scripts]
+go_to_point = draw_shape.go_to_point_server:main
+shape_sub = draw_shape.shape_sub:main
+

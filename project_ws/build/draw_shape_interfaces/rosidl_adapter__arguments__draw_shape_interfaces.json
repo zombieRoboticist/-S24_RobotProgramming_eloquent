@@ -1,0 +1,7 @@
+{
+  "package_name": "draw_shape_interfaces",
+  "non_idl_tuples": [
+    "/home/yahboom/S24_RobotProgramming_eloquent/project_ws/src/draw_shape_interfaces:msg/ShapeDef.msg",
+    "/home/yahboom/S24_RobotProgramming_eloquent/project_ws/src/draw_shape_interfaces:srv/GoToPoint.srv"
+  ]
+}

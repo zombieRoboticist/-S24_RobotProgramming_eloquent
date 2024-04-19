@@ -1,0 +1,6 @@
+msg/ShapeDef.idl
+msg/ShapeDef.msg
+srv/GoToPoint.idl
+srv/GoToPoint.srv
+srv/GoToPoint_Request.msg
+srv/GoToPoint_Response.msg
