@@ -51,7 +51,7 @@ class GoToPointServer(Node):
 
     def pose_callback(self):
         try:
-            transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
+            transform = self.tf_buffer.lookup_transform('odom','base_footprint',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
             
         except:
             self.get_logger().info("failed to get transform")
@@ -81,7 +81,7 @@ class GoToPointServer(Node):
                 self.twist_pub.publish(self.vel)
                 break
             self.twist_pub.publish(self.vel)
-            self.get_logger().info(f"Error: {xError}, {yError}: Not to point yet, sending new command")
+            # self.get_logger().info(f"Error: {xError}, {yError}: Not to point yet, sending new command")
         response.ret = 0
         return response
 
