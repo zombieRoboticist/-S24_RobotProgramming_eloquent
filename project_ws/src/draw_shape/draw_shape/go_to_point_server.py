@@ -27,6 +27,7 @@ class GoToPointServer(Node):
 
         # publisher of turtlebot state
         self.twist_pub = self.create_publisher(Twist, 'cmd_vel', 1)
+        self.twist_pub.publish(self.vel)
 
         self.pose_x = 0 # velocty in x-direction (in the turtle frame), unit: pix/sec
         self.pose_y = 0 # angular velicty in yaw-direction (in the turtle frame), unit: rad/sec
@@ -43,7 +44,7 @@ class GoToPointServer(Node):
 
         #### Driving Simulation Timer ####
         # self.sim_interval = 0.02
-        self.create_timer(0.1, self.pose_callback)
+        self.create_timer(0.01, self.pose_callback)
 
         self.goToPoint_srv = self.create_service(GoToPoint, 'desired_pose', self.go_to_pose_callback)
 
@@ -61,7 +62,7 @@ class GoToPointServer(Node):
         self.des_x = request.desired_pose.x
         self.des_y = request.desired_pose.y
         self.get_logger().info(f"Going to pose {self.des_x}, {self.des_y}")
-        tol = 0.01
+        tol = 0.05
         Kp = 1
         while(1):
             xError = self.des_x - self.pose_x
