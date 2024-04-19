@@ -31,8 +31,8 @@ class GoToPointServer(Node):
 
         self.pose_x = 0 # velocty in x-direction (in the turtle frame), unit: pix/sec
         self.pose_y = 0 # angular velicty in yaw-direction (in the turtle frame), unit: rad/sec
-        self.des_x = 0
-        self.des_y = 0
+        self.des_x = []
+        self.des_y = []
 
         # Create a transform listener
         self.tf_buffer = Buffer()
@@ -44,7 +44,7 @@ class GoToPointServer(Node):
 
         #### Driving Simulation Timer ####
         # self.sim_interval = 0.02
-        #self.create_timer(0.01, self.pose_callback)
+        self.create_timer(0.01, self.pose_callback)
 
         self.goToPoint_srv = self.create_service(GoToPoint, 'desired_pose', self.go_to_pose_callback)
 
@@ -60,28 +60,34 @@ class GoToPointServer(Node):
         self.pose_y = transform.transform.translation.y
         self.get_logger().info(f"Current Pose: {self.pose_x}, {self.pose_y}")
 
-    def go_to_pose_callback(self, request, response):
-        self.des_x = request.desired_pose.x
-        self.des_y = request.desired_pose.y
-        self.get_logger().info(f"Going to pose {self.des_x}, {self.des_y}")
-        self.pose_callback()
         tol = 0.05
         Kp = 1
-        while(1):
-            xError = self.des_x - self.pose_x
-            yError = self.des_y - self.pose_y
 
-            self.vel.linear.x = xError * Kp
-            self.vel.linear.y = yError * Kp
+        try:
+            xError = self.des_x[0] - self.pose_x
+            yError = self.des_y[0] - self.pose_y
+        except IndexError:
+            return
 
-            
-            if(abs(xError) < tol and abs(yError) < tol):
-                self.get_logger().info("Stopping Commands")
-                self.vel.linear.x = 0
-                self.vel.linear.y = 0
-                self.twist_pub.publish(self.vel)
-                break
-            self.twist_pub.publish(self.vel)
+        self.vel.linear.x = xError * Kp
+        self.vel.linear.y = yError * Kp
+
+        
+        if(abs(xError) < tol and abs(yError) < tol):
+            self.get_logger().info("Stopping Commands")
+            self.vel.linear.x = 0
+            self.vel.linear.y = 0
+            self.des_x.pop(0)
+            self.des_y.pop(0)
+
+
+        self.twist_pub.publish(self.vel)
+
+    def go_to_pose_callback(self, request, response):
+        self.des_x.append(request.desired_pose.x)
+        self.des_y.append(request.desired_pose.y)
+        self.get_logger().info(f"Going to pose {self.des_x}, {self.des_y}")
+        
             # self.get_logger().info(f"Error: {xError}, {yError}: Not to point yet, sending new command")
         response.ret = 0
         return response
