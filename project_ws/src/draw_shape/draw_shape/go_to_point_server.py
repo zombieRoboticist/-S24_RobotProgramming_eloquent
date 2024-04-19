@@ -44,7 +44,7 @@ class GoToPointServer(Node):
 
         #### Driving Simulation Timer ####
         # self.sim_interval = 0.02
-        self.create_timer(0.01, self.pose_callback)
+        #self.create_timer(0.01, self.pose_callback)
 
         self.goToPoint_srv = self.create_service(GoToPoint, 'desired_pose', self.go_to_pose_callback)
 
@@ -64,6 +64,7 @@ class GoToPointServer(Node):
         self.des_x = request.desired_pose.x
         self.des_y = request.desired_pose.y
         self.get_logger().info(f"Going to pose {self.des_x}, {self.des_y}")
+        self.pose_callback()
         tol = 0.05
         Kp = 1
         while(1):
