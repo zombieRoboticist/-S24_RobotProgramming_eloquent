@@ -50,7 +50,7 @@ class GoToPointServer(Node):
 
     def pose_callback(self):
 
-        transform = self.tf_buffer.lookup_transform('odom','base_footprint',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
+        transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
         self.pose_x = transform.transform.translation.x
         self.pose_y = transform.transform.translation.y
 
