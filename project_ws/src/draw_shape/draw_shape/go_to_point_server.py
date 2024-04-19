@@ -52,6 +52,7 @@ class GoToPointServer(Node):
     def pose_callback(self):
         try:
             transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
+            self.get_logger().info("Updated transform")
         except:
             self.get_logger().info("failed to get transform")
             return
