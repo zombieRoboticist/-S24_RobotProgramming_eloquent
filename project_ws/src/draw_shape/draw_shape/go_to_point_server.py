@@ -67,11 +67,12 @@ class GoToPointServer(Node):
                 self.vel.linear.x = 0
                 self.vel.linear.y = 0
                 break
-            self.get_logger().info("Not to point yet, sending new command")
+            self.twist_pub.publish(self.vel)
+            self.get_logger().info(f"Error: {xError}, {yError}: Not to point yet, sending new command")
         response.ret = 0
         return response
 
-    def driving_timer_cb(self):
+    # def driving_timer_cb(self):
 
         # # convert quaternion to rpy
         # roll, pitch, yaw = rpy_from_quat(self.turtle.turtle_pose.orientation.x,
@@ -98,7 +99,7 @@ class GoToPointServer(Node):
         # # publish new turtle state
         # self.turtle_pub.publish(self.turtle)
 
-        self.twist_pub.publish(self.vel)
+        
 
 
 # def quat_from_rpy(roll, pitch, yaw):
