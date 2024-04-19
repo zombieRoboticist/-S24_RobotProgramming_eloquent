@@ -59,7 +59,6 @@ class GoToPointServer(Node):
         self.pose_x = transform.transform.translation.x
         self.pose_y = transform.transform.translation.y
         self.get_logger().info(f"Current Pose: {self.pose_x}, {self.pose_y}")
-        self.get_logger().info(f"Error: {se}")
 
         tol = 0.01
         Kp_x = 1
