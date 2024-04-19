@@ -34,7 +34,7 @@ class GoToPointServer(Node):
 
 
         #### subsciber to car cmd ####
-        self.pose_sub = self.create_subscription(Pose, 'robot_pose', self.pose_callback, 1)
+        self.pose_sub = self.create_subscription(Pose, 'odom', self.pose_callback, 1)
         #######################
 
         #### Driving Simulation Timer ####
