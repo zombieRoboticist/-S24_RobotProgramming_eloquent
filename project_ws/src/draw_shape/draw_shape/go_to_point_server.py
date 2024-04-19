@@ -38,8 +38,8 @@ class GoToPointServer(Node):
         #######################
 
         #### Driving Simulation Timer ####
-        self.sim_interval = 0.02
-        self.create_timer(self.sim_interval, self.driving_timer_cb)
+        # self.sim_interval = 0.02
+        # self.create_timer(self.sim_interval, self.driving_timer_cb)
 
         self.goToPoint_srv = self.create_service(GoToPoint, 'desired_pose', self.go_to_pose_callback)
 
