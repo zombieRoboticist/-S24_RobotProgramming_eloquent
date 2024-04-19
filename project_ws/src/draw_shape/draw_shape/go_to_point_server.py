@@ -60,7 +60,7 @@ class GoToPointServer(Node):
         self.pose_y = transform.transform.translation.y
         self.get_logger().info(f"Current Pose: {self.pose_x}, {self.pose_y}")
 
-        tol = 0.05
+        tol = 0.01
         Kp = 1
 
         try:
@@ -75,8 +75,8 @@ class GoToPointServer(Node):
         
         if(abs(xError) < tol and abs(yError) < tol):
             self.get_logger().info("Stopping Commands")
-            self.vel.linear.x = 0
-            self.vel.linear.y = 0
+            self.vel.linear.x = 0.0
+            self.vel.linear.y = 0.0
             self.des_x.pop(0)
             self.des_y.pop(0)
 
