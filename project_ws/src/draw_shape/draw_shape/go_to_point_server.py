@@ -4,8 +4,9 @@ import rclpy
 from rclpy.node import Node
 import math
 import time
+from tf2_ros import TransformException, Buffer, TransformListener
 
-from geometry_msgs.msg import Twist, Pose
+from geometry_msgs.msg import Twist, Pose, TwistWithCovariance
 
 from draw_shape_interfaces.srv import GoToPoint
 # from turtle_interfaces.srv import SetColor
@@ -32,22 +33,26 @@ class GoToPointServer(Node):
         self.des_x = 0
         self.des_y = 0
 
+        # Create a transform listener
+        self.tf_buffer = Buffer()
+        self.tf_listener = TransformListener(self.tf_buffer, self)
 
         #### subsciber to car cmd ####
-        self.pose_sub = self.create_subscription(Pose, 'odom', self.pose_callback, 1)
+        #self.pose_sub = self.create_subscription(TwistWithCovariance, 'odom', self.pose_callback, 1)
         #######################
 
         #### Driving Simulation Timer ####
         # self.sim_interval = 0.02
-        # self.create_timer(self.sim_interval, self.driving_timer_cb)
+        self.create_timer(0.1, self.pose_callback)
 
         self.goToPoint_srv = self.create_service(GoToPoint, 'desired_pose', self.go_to_pose_callback)
 
 
-    def pose_callback(self, msg):
+    def pose_callback(self):
 
-        self.pose_x = msg.pose.position.x
-        self.pose_y = msg.pose.position.y
+        transform = self.tf_buffer.lookup_transform('odom','base_footprint',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
+        self.pose_x = transform.transform.translation.x
+        self.pose_y = transform.transform.translation.y
 
     def go_to_pose_callback(self, request, response):
         self.des_x = request.desired_pose.x
