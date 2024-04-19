@@ -17,6 +17,12 @@ class GoToPointServer(Node):
 
         # # initialize a turtle
         self.vel = Twist()
+        self.vel.linear.x = 0.0
+        self.vel.linear.y = 0.0
+        self.vel.linear.z = 0.0
+        self.vel.angular.x = 0.0
+        self.vel.angular.y = 0.0
+        self.vel.angular.z = 0.0
 
         # publisher of turtlebot state
         self.twist_pub = self.create_publisher(Twist, 'cmd_vel', 1)
