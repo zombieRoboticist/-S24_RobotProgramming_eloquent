@@ -52,12 +52,13 @@ class GoToPointServer(Node):
     def pose_callback(self):
         try:
             transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
-            self.get_logger().info("Updated transform")
+            
         except:
             self.get_logger().info("failed to get transform")
             return
         self.pose_x = transform.transform.translation.x
         self.pose_y = transform.transform.translation.y
+        self.get_logger().info(f"Current Pose: {self.pose_x}, {self.pose_y}")
 
     def go_to_pose_callback(self, request, response):
         self.des_x = request.desired_pose.x
@@ -74,6 +75,7 @@ class GoToPointServer(Node):
 
             
             if(abs(xError) < tol and abs(yError) < tol):
+                self.get_logger().info("Stopping Commands")
                 self.vel.linear.x = 0
                 self.vel.linear.y = 0
                 self.twist_pub.publish(self.vel)
