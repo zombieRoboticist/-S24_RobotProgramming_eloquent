@@ -44,19 +44,19 @@ class GoToPointServer(Node):
 
         #### Driving Simulation Timer ####
         # self.sim_interval = 0.02
-        self.create_timer(0.01, self.pose_callback)
+        #self.create_timer(0.01, self.pose_callback)
 
         self.goToPoint_srv = self.create_service(GoToPoint, 'desired_pose', self.go_to_pose_callback)
 
 
-    def pose_callback(self):
-        try:
-            transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
-        except:
-            self.get_logger().info("failed to get transform")
-            return
-        self.pose_x = transform.transform.translation.x
-        self.pose_y = transform.transform.translation.y
+    # def pose_callback(self):
+    #     try:
+    #         transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
+    #     except:
+    #         self.get_logger().info("failed to get transform")
+    #         return
+    #     self.pose_x = transform.transform.translation.x
+    #     self.pose_y = transform.transform.translation.y
 
     def go_to_pose_callback(self, request, response):
         self.des_x = request.desired_pose.x
@@ -65,6 +65,14 @@ class GoToPointServer(Node):
         tol = 0.05
         Kp = 1
         while(1):
+
+            try:
+                transform = self.tf_buffer.lookup_transform('base_footprint','odom',rclpy.time.Time(),rclpy.duration.Duration(seconds=0.1))
+            except:
+                self.get_logger().info("failed to get transform")
+            
+            self.pose_x = transform.transform.translation.x
+            self.pose_y = transform.transform.translation.y
             xError = self.des_x - self.pose_x
             yError = self.des_y - self.pose_y
 
